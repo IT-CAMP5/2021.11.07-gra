@@ -1,0 +1,43 @@
+body {
+	background: black;
+	color: LightGray;
+}
+
+#content {
+	width: 900px;
+	margin: 30px auto;
+}
+
+#szubienica {
+	width: 450px;
+	float: left;
+}
+
+#litery {
+	float: right;
+}
+
+.letter {
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	border: 3px solid LightGray;
+	float: left;
+	border-radius: 15px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.letter:hover {
+	color: white;
+	border: 3px solid white;
+	background: #222222
+}
+
+#haslo {
+	text-align: center;
+	font-size: 50px;
+	margin: 50px 0;
+}
